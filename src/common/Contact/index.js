@@ -7,8 +7,16 @@ import {
 
 export const Contact = ({ footer }) => (
   <IconWrapper>
-    <StyledFbIcon footer={footer} />
-    <StyledMessageIcon footer={footer} />
+    <a
+      href="https://www.facebook.com/"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      <StyledFbIcon footer={footer} />
+    </a>
+    <a href="mailto:adrese-mailp@com.pl">
+      <StyledMessageIcon footer={footer} />
+    </a>
     <StyledBasketIcon footer={footer} />
   </IconWrapper>
 );
