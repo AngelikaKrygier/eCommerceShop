@@ -7,6 +7,7 @@ export const StyledBackDrop = styled.div`
   background-repeat: no-repeat;
   aspect-ratio: 4/1;
   background-size: cover;
+  box-shadow: ${({ theme }) => theme.boxShadow};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     display: none;
