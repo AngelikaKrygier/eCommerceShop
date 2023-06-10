@@ -32,6 +32,14 @@ export const light = {
       hoverListItem: colorName.mercury,
       hoverFontListItem: colorName.black,
     },
+    content: {
+      background: colorName.white,
+    },
+    footer: {
+      background: colorName.black,
+      icon: colorName.white,
+      font: colorName.white,
+    },
   },
 };
 
