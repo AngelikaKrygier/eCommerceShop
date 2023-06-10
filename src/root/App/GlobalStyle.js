@@ -15,5 +15,6 @@ export const GlobalStyle = createGlobalStyle`
         background-color: ${({ theme }) => theme.colors.background};
         margin: 0px;
         font-family: 'Work Sans', sans-serif;
+        display: grid;
     }
 `;
