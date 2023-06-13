@@ -40,6 +40,9 @@ export const light = {
       icon: colorName.white,
       font: colorName.white,
     },
+    profile: {
+      background: colorName.mercury,
+    },
   },
 };
 
