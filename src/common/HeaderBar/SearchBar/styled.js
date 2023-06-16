@@ -8,17 +8,17 @@ export const StyledSearchBar = styled.div`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     gap: 10px;
+    grid-column: span 2;
   }
 `;
 
 export const Search = styled.input`
   border-radius: 20px;
-  padding: 10px;
+  padding: 5px 10px;
   font-size: 18px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     font-size: 15px;
-    padding: 5px 10px;
   }
 `;
 
@@ -31,7 +31,7 @@ export const Button = styled.button`
 `;
 
 export const ButtonIcon = styled(Icon)`
-  width: 40px;
+  max-width: 40px;
   cursor: pointer;
   &:hover {
     fill: ${({ theme }) => theme.colors.headerBar.hoverIcon};
