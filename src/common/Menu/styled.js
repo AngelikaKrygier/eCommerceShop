@@ -7,7 +7,7 @@ export const StyledMenu = styled.nav`
   display: flex;
   gap: 40px;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     display: grid;
@@ -16,8 +16,10 @@ export const StyledMenu = styled.nav`
   }
 `;
 
-export const MenuItem = styled.li`
-  list-style: none;
+export const MenuItem = styled.button`
+  border: none;
+  background-color: transparent;
+  color: white;
   cursor: pointer;
   padding: 10px;
   border-radius: 10px;
