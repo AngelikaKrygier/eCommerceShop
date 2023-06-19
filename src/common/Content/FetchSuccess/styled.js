@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledContent = styled.div`
+export const StyledContentSuccess = styled.div`
   max-width: 1000px;
   min-height: 100vh;
   width: 100%;

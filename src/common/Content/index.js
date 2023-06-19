@@ -1,22 +1,15 @@
-import { StyledContent, Title, LayoutContent } from "./styled";
-import { Tile } from "../Tile";
+import { FetchLoading } from "./FetchLoading";
+import { FetchSuccess } from "./FetchSuccess";
+import { FetchError } from "./FetchError";
 
-export const Content = ({ title, list }) => (
-  <StyledContent>
-    <Title>{title}</Title>
-    {list ? (
-      <LayoutContent>
-        {list.map((listItem) => (
-          <Tile
-            name={listItem.name}
-            imagePath={listItem.imagePath}
-            description={listItem.description}
-            prise={listItem.prise}
-          />
-        ))}
-      </LayoutContent>
-    ) : (
-      ""
-    )}
-  </StyledContent>
-);
+export const Content = ({state, title, list} ) => {
+
+  switch (state) {
+    case "loading":
+      return <FetchLoading />;
+    case "success":
+      return <FetchSuccess title={title} list={list} />;
+    case "error":
+      return <FetchError />;
+  }
+};
