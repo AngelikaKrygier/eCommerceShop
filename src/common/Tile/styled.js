@@ -5,6 +5,7 @@ export const StyledTile = styled.div`
   grid-template-rows: auto;
   justify-items: center;
   padding: 20px;
+  margin: 5px;
   box-shadow: ${({ theme }) => theme.boxShadow};
 `;
 
@@ -22,7 +23,7 @@ export const Description = styled.p`
   font-size: 13px;
 `;
 
-export const Prise = styled.p`
+export const Price = styled.p`
   font-weight: ${({ theme }) => theme.fontWeight.bold};
 `;
 
