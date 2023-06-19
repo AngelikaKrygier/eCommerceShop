@@ -1,6 +1,7 @@
 const common = {
   breakpoints: {
     mobileMax: "767px",
+    tabletMax: "1450px",
   },
   fontWeight: {
     regular: 400,
@@ -8,13 +9,15 @@ const common = {
     bold: 700,
     hardBold: 900,
   },
-  boxShadow: "0px 1px 5px 0px #D3D3D3",
+  boxShadow: "0px 0px 12px 0px rgba(7, 5, 7, 0.34);",
 };
 
 const colorName = {
   black: "#000000",
+  mineShaft: "#222222",
   white: "#fff",
   mercury: "#E8E8E8",
+  swirl: "#D5D0C8",
   willowGrove: "#6B6E68",
 };
 
@@ -42,6 +45,14 @@ export const light = {
     },
     profile: {
       background: colorName.mercury,
+      fontColor: colorName.black,
+      border: colorName.black,
+      hoverBackground: colorName.black,
+      hoverFont: colorName.white,
+    },
+    button: {
+      background: colorName.mineShaft,
+      fontColor: colorName.white,
     },
   },
 };
