@@ -1,0 +1,171 @@
+{
+  "dresses" :
+  [
+    {
+      "name": "Nazwa wzoru 1",
+      "id": "1",
+      "imagePath": "https://i.postimg.cc/1X3n0VFW/PERSONAL-EXPENSE-TRACKER-2.png",
+      "description":
+        "Sukienka Wykonana z wysokiej jakości materiałów, zapewnia wygodę i doskonałe dopasowanie",
+      "price": "100,00 zł"
+    },
+    {
+      "name": "Nazwa wzoru 2",
+      "id": "2",
+      "imagePath": "https://i.postimg.cc/1X3n0VFW/PERSONAL-EXPENSE-TRACKER-2.png",
+      "description":
+        "Sukienka Wykonana z wysokiej jakości materiałów, zapewnia wygodę i doskonałe dopasowanie",
+      "price": "100,00 zł"
+    },
+    {
+      "name": "Nazwa wzoru 3",
+      "id": "3",
+      "imagePath": "https://i.postimg.cc/1X3n0VFW/PERSONAL-EXPENSE-TRACKER-2.png",
+      "description":
+        "Sukienka Wykonana z wysokiej jakości materiałów, zapewnia wygodę i doskonałe dopasowanie",
+      "price": "100,00 zł"
+    },
+    {
+      "name": "Nazwa wzoru 4",
+      "id": "4",
+      "imagePath": "https://i.postimg.cc/1X3n0VFW/PERSONAL-EXPENSE-TRACKER-2.png",
+      "description":
+        "Sukienka Wykonana z wysokiej jakości materiałów, zapewnia wygodę i doskonałe dopasowanie",
+      "price": "100,00 zł"
+    },
+    {
+      "name": "Nazwa wzoru 5",
+      "id": "5",
+      "imagePath": "https://i.postimg.cc/1X3n0VFW/PERSONAL-EXPENSE-TRACKER-2.png",
+      "description":
+        "Sukienka Wykonana z wysokiej jakości materiałów, zapewnia wygodę i doskonałe dopasowanie",
+      "price": "100,00 zł"
+    }
+  ],
+  "pants": [
+    {
+      "name": "Nazwa wzoru 1",
+      "id": "1a",
+      "imagePath": "https://i.postimg.cc/76x53tJ1/PERSONAL-EXPENSE-TRACKER-3.png",
+      "description":
+      "Spodnie wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
+      "price": "150,00 zł"
+    },
+    {
+      "name": "Nazwa wzoru 2",
+      "id": "2a",
+      "imagePath": "https://i.postimg.cc/76x53tJ1/PERSONAL-EXPENSE-TRACKER-3.png",
+      "description":
+      "Spodnie wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
+      "price": "150,00 zł"
+    },
+    {
+      "name": "Nazwa wzoru 3",
+      "id": "3a",
+      "imagePath": "https://i.postimg.cc/76x53tJ1/PERSONAL-EXPENSE-TRACKER-3.png",
+      "description":
+      "Spodnie wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
+      "price": "150,00 zł"
+    },
+    {
+      "name": "Nazwa wzoru 4",
+      "id": "4a",
+      "imagePath": "https://i.postimg.cc/76x53tJ1/PERSONAL-EXPENSE-TRACKER-3.png",
+      "description":
+      "Spodnie wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
+      "price": "150,00 zł"
+    },
+    {
+      "name": "Nazwa wzoru 5",
+      "id": "5a",
+      "imagePath": "https://i.postimg.cc/76x53tJ1/PERSONAL-EXPENSE-TRACKER-3.png",
+      "description":
+      "Spodnie wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
+      "price": "150,00 zł"
+    }
+  ],
+  "shoes": [
+    {
+      "name": "Nazwa wzoru 1",
+      "id": "1aa",
+      "imagePath": "https://i.postimg.cc/C11qy6Mh/PERSONAL-EXPENSE-TRACKER-4.png",
+      "description":
+      "Buty wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
+      "price": "250,00 zł"
+    },
+    {
+      "name": "Nazwa wzoru 2",
+      "id": "2aa",
+      "imagePath": "https://i.postimg.cc/C11qy6Mh/PERSONAL-EXPENSE-TRACKER-4.png",
+      "description":
+      "Buty wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
+      "price": "250,00 zł"
+    },
+    {
+      "name": "Nazwa wzoru 3",
+      "id": "3aa",
+      "imagePath": "https://i.postimg.cc/C11qy6Mh/PERSONAL-EXPENSE-TRACKER-4.png",
+      "description":
+      "Buty wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
+      "price": "250,00 zł"
+    },
+    {
+      "name": "Nazwa wzoru 4",
+      "id": "4aa",
+     "imagePath": "https://i.postimg.cc/C11qy6Mh/PERSONAL-EXPENSE-TRACKER-4.png",
+      "description":
+      "Buty wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
+      "price": "250,00 zł"
+    },
+    {
+      "name": "Nazwa wzoru 5",
+      "id": "5aa",
+      "imagePath": "https://i.postimg.cc/C11qy6Mh/PERSONAL-EXPENSE-TRACKER-4.png",
+      "description":
+      "Buty wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
+      "price": "250,00 zł"
+    }
+  ],
+  "blouses": [
+    {
+      "name": "Nazwa wzoru 1",
+      "id": "1aaa",
+      "imagePath": "https://i.postimg.cc/0yjjyJRn/PERSONAL-EXPENSE-TRACKER-5.png",
+      "description":
+      "Bluzka wykonana z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
+      "price": "130,00 zł"
+    },
+    {
+      "name": "Nazwa wzoru 2",
+      "id": "2aaa",
+      "imagePath": "https://i.postimg.cc/0yjjyJRn/PERSONAL-EXPENSE-TRACKER-5.png",
+      "description":
+      "Bluzka wykonana z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
+      "price": "130,00 zł"
+    },
+    {
+      "name": "Nazwa wzoru 3",
+      "id": "3aaa",
+      "imagePath": "https://i.postimg.cc/0yjjyJRn/PERSONAL-EXPENSE-TRACKER-5.png",
+      "description":
+      "Bluzka wykonana z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
+      "price": "130,00 zł"
+    },
+    {
+      "name": "Nazwa wzoru 4",
+      "id": "4aaa",
+      "imagePath": "https://i.postimg.cc/0yjjyJRn/PERSONAL-EXPENSE-TRACKER-5.png",
+      "description":
+      "Bluzka wykonana z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
+      "price": "130,00 zł"
+    },
+    {
+      "name": "Nazwa wzoru 5",
+      "id": "5aaa",
+      "imagePath": "https://i.postimg.cc/0yjjyJRn/PERSONAL-EXPENSE-TRACKER-5.png",
+      "description":
+      "Bluzka wykonana z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
+      "price": "130,00 zł"
+    }
+  ]
+}
