@@ -16,6 +16,7 @@ import {
   shoesType,
   clothesType,
 } from "./filterElemntsList";
+import { nanoid } from "@reduxjs/toolkit";
 
 export const ProductsFilter = ({ shoes }) => (
   <StyledClothingFilters>
@@ -24,7 +25,7 @@ export const ProductsFilter = ({ shoes }) => (
         <FiledTitle>Wybierz Kolor</FiledTitle>
         <List>
           {colors.map((color) => (
-            <ListItem>
+            <ListItem key={nanoid()}>
               <Label>
                 <Input type="radio" value={color} />
                 {color}
@@ -40,7 +41,7 @@ export const ProductsFilter = ({ shoes }) => (
             <FiledTitle>Wybierz Rozmiar</FiledTitle>
             <List>
               {shoesSizes.map((size) => (
-                <ListItem>
+                <ListItem key={nanoid()}>
                   <Label>
                     <Input type="radio" value={size} />
                     {size}
@@ -53,7 +54,7 @@ export const ProductsFilter = ({ shoes }) => (
             <FiledTitle>Wybierz typ</FiledTitle>
             <List>
               {shoesType.map((type) => (
-                <ListItem>
+                <ListItem key={nanoid()}>
                   <Label>
                     <Input type="radio" value={type} />
                     {type}
@@ -69,7 +70,7 @@ export const ProductsFilter = ({ shoes }) => (
             <FiledTitle>Wybierz rozmiar</FiledTitle>
             <List>
               {clothesSizes.map((size) => (
-                <ListItem>
+                <ListItem key={nanoid()}>
                   <Label>
                     <Input type="radio" value={size} />
                     {size}
@@ -82,7 +83,7 @@ export const ProductsFilter = ({ shoes }) => (
             <FiledTitle>Wybierz typ</FiledTitle>
             <List>
               {clothesType.map((type) => (
-                <ListItem>
+                <ListItem key={nanoid()}>
                   <Label>
                     <Input type="radio" value={type} />
                     {type}

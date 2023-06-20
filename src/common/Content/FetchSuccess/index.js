@@ -1,6 +1,7 @@
 import { Title, LayoutContent, StyledFetchSuccess } from "./styled";
 import { Tile } from "../../Tile";
 import { ProductsFilter } from "./ProductsFilters";
+import { nanoid } from "@reduxjs/toolkit";
 
 export const FetchSuccess = ({ title, list, shoes }) => (
   <StyledFetchSuccess>
@@ -12,6 +13,7 @@ export const FetchSuccess = ({ title, list, shoes }) => (
       <LayoutContent>
         {list.map((listItem) => (
           <Tile
+            key={nanoid()}
             name={listItem.name}
             imagePath={listItem.imagePath}
             description={listItem.description}

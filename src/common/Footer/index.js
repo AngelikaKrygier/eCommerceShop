@@ -3,7 +3,7 @@ import { Contact } from "../Contact";
 
 export const Footer = () => (
   <StyledFooter>
-    <Contact footer />
+    <Contact footer="true"/>
     <Address>
       <Paragraph>Clothing Store</Paragraph>
       <Paragraph>Ul. ŚW. Jana 18 </Paragraph>
