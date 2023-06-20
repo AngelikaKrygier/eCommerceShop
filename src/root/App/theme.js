@@ -9,7 +9,7 @@ const common = {
     bold: 700,
     hardBold: 900,
   },
-  boxShadow: "0px 0px 12px 0px rgba(7, 5, 7, 0.34);",
+  boxShadow: "0px 0px 9px 0px #B2B2B2",
 };
 
 const colorName = {
@@ -17,7 +17,7 @@ const colorName = {
   mineShaft: "#222222",
   white: "#fff",
   mercury: "#E8E8E8",
-  swirl: "#D5D0C8",
+  swirl: "#7A7A7A",
   willowGrove: "#6B6E68",
 };
 
@@ -53,6 +53,11 @@ export const light = {
     button: {
       background: colorName.mineShaft,
       fontColor: colorName.white,
+    },
+    form: {
+      input: colorName.swirl,
+      background: colorName.swirl,
+      color: colorName.white,
     },
   },
 };
