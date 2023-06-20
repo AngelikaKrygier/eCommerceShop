@@ -7,7 +7,9 @@
       "imagePath": "https://i.postimg.cc/1X3n0VFW/PERSONAL-EXPENSE-TRACKER-2.png",
       "description":
         "Sukienka Wykonana z wysokiej jakości materiałów, zapewnia wygodę i doskonałe dopasowanie",
-      "price": "100,00 zł"
+      "price": "100,00 zł",
+      "size": [ "s", "m", "l"],
+      "colors": ["czerwony", "zielony", "biały", "różowy"]
     },
     {
       "name": "Nazwa wzoru 2",
@@ -15,7 +17,9 @@
       "imagePath": "https://i.postimg.cc/1X3n0VFW/PERSONAL-EXPENSE-TRACKER-2.png",
       "description":
         "Sukienka Wykonana z wysokiej jakości materiałów, zapewnia wygodę i doskonałe dopasowanie",
-      "price": "100,00 zł"
+      "price": "100,00 zł",
+      "size": [ "s", "m", "xl"],
+      "colors": ["czerwony", "zielony", "czarny", "żółty"]
     },
     {
       "name": "Nazwa wzoru 3",
@@ -23,7 +27,9 @@
       "imagePath": "https://i.postimg.cc/1X3n0VFW/PERSONAL-EXPENSE-TRACKER-2.png",
       "description":
         "Sukienka Wykonana z wysokiej jakości materiałów, zapewnia wygodę i doskonałe dopasowanie",
-      "price": "100,00 zł"
+      "price": "100,00 zł",
+      "size": [ "xs", "m", "xl"],
+      "colors": [ "czarny", "żółty", "biały", "różowy"]
     },
     {
       "name": "Nazwa wzoru 4",
@@ -31,7 +37,8 @@
       "imagePath": "https://i.postimg.cc/1X3n0VFW/PERSONAL-EXPENSE-TRACKER-2.png",
       "description":
         "Sukienka Wykonana z wysokiej jakości materiałów, zapewnia wygodę i doskonałe dopasowanie",
-      "price": "100,00 zł"
+      "price": "100,00 zł",
+      "colors": ["czerwony", "zielony", "czarny", "różowy"]
     },
     {
       "name": "Nazwa wzoru 5",
@@ -39,7 +46,8 @@
       "imagePath": "https://i.postimg.cc/1X3n0VFW/PERSONAL-EXPENSE-TRACKER-2.png",
       "description":
         "Sukienka Wykonana z wysokiej jakości materiałów, zapewnia wygodę i doskonałe dopasowanie",
-      "price": "100,00 zł"
+      "price": "100,00 zł",
+      "colors": [ "zielony", "czarny", "żółty", "biały", "różowy"]
     }
   ],
   "pants": [
@@ -49,7 +57,8 @@
       "imagePath": "https://i.postimg.cc/76x53tJ1/PERSONAL-EXPENSE-TRACKER-3.png",
       "description":
       "Spodnie wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
-      "price": "150,00 zł"
+      "price": "150,00 zł",
+      "colors": ["czerwony"]
     },
     {
       "name": "Nazwa wzoru 2",
@@ -57,7 +66,8 @@
       "imagePath": "https://i.postimg.cc/76x53tJ1/PERSONAL-EXPENSE-TRACKER-3.png",
       "description":
       "Spodnie wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
-      "price": "150,00 zł"
+      "price": "150,00 zł",
+      "colors": [ "zielony", "czarny", "biały", "różowy"]
     },
     {
       "name": "Nazwa wzoru 3",
@@ -65,7 +75,8 @@
       "imagePath": "https://i.postimg.cc/76x53tJ1/PERSONAL-EXPENSE-TRACKER-3.png",
       "description":
       "Spodnie wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
-      "price": "150,00 zł"
+      "price": "150,00 zł",
+      "colors": ["czarny",  "biały", "różowy"]
     },
     {
       "name": "Nazwa wzoru 4",
@@ -73,7 +84,8 @@
       "imagePath": "https://i.postimg.cc/76x53tJ1/PERSONAL-EXPENSE-TRACKER-3.png",
       "description":
       "Spodnie wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
-      "price": "150,00 zł"
+      "price": "150,00 zł",
+      "colors": ["czerwony", "zielony", "czarny", "żółty", "biały", "różowy"]
     },
     {
       "name": "Nazwa wzoru 5",
@@ -81,7 +93,8 @@
       "imagePath": "https://i.postimg.cc/76x53tJ1/PERSONAL-EXPENSE-TRACKER-3.png",
       "description":
       "Spodnie wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
-      "price": "150,00 zł"
+      "price": "150,00 zł",
+      "colors": ["czerwony", "biały", "różowy"]
     }
   ],
   "shoes": [
@@ -91,7 +104,8 @@
       "imagePath": "https://i.postimg.cc/C11qy6Mh/PERSONAL-EXPENSE-TRACKER-4.png",
       "description":
       "Buty wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
-      "price": "250,00 zł"
+      "price": "250,00 zł",
+      "colors": ["czerwony", "czarny"]
     },
     {
       "name": "Nazwa wzoru 2",
@@ -99,7 +113,8 @@
       "imagePath": "https://i.postimg.cc/C11qy6Mh/PERSONAL-EXPENSE-TRACKER-4.png",
       "description":
       "Buty wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
-      "price": "250,00 zł"
+      "price": "250,00 zł",
+      "colors": ["czerwony", "czarny", "żółty", "biały", "różowy"]
     },
     {
       "name": "Nazwa wzoru 3",
@@ -107,7 +122,8 @@
       "imagePath": "https://i.postimg.cc/C11qy6Mh/PERSONAL-EXPENSE-TRACKER-4.png",
       "description":
       "Buty wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
-      "price": "250,00 zł"
+      "price": "250,00 zł",
+      "colors": ["czerwony", "zielony", "różowy"]
     },
     {
       "name": "Nazwa wzoru 4",
@@ -115,7 +131,8 @@
      "imagePath": "https://i.postimg.cc/C11qy6Mh/PERSONAL-EXPENSE-TRACKER-4.png",
       "description":
       "Buty wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
-      "price": "250,00 zł"
+      "price": "250,00 zł",
+      "colors": [ "czarny", "biały"]
     },
     {
       "name": "Nazwa wzoru 5",
@@ -123,7 +140,8 @@
       "imagePath": "https://i.postimg.cc/C11qy6Mh/PERSONAL-EXPENSE-TRACKER-4.png",
       "description":
       "Buty wykonane z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
-      "price": "250,00 zł"
+      "price": "250,00 zł",
+      "colors": ["czerwony", "żółty", "biały", "różowy"]
     }
   ],
   "blouses": [
@@ -133,7 +151,8 @@
       "imagePath": "https://i.postimg.cc/0yjjyJRn/PERSONAL-EXPENSE-TRACKER-5.png",
       "description":
       "Bluzka wykonana z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
-      "price": "130,00 zł"
+      "price": "130,00 zł",
+      "colors": ["żółty"]
     },
     {
       "name": "Nazwa wzoru 2",
@@ -141,7 +160,8 @@
       "imagePath": "https://i.postimg.cc/0yjjyJRn/PERSONAL-EXPENSE-TRACKER-5.png",
       "description":
       "Bluzka wykonana z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
-      "price": "130,00 zł"
+      "price": "130,00 zł",
+      "colors": ["czerwony", "zielony", "czarny", "żółty", "biały", "różowy"]
     },
     {
       "name": "Nazwa wzoru 3",
@@ -149,7 +169,8 @@
       "imagePath": "https://i.postimg.cc/0yjjyJRn/PERSONAL-EXPENSE-TRACKER-5.png",
       "description":
       "Bluzka wykonana z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
-      "price": "130,00 zł"
+      "price": "130,00 zł",
+      "colors": ["czerwony", "zielony"]
     },
     {
       "name": "Nazwa wzoru 4",
@@ -157,7 +178,8 @@
       "imagePath": "https://i.postimg.cc/0yjjyJRn/PERSONAL-EXPENSE-TRACKER-5.png",
       "description":
       "Bluzka wykonana z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
-      "price": "130,00 zł"
+      "price": "130,00 zł",
+      "colors": ["czerwony", "zielony", "czarny", "żółty", "biały", "różowy"]
     },
     {
       "name": "Nazwa wzoru 5",
@@ -165,7 +187,8 @@
       "imagePath": "https://i.postimg.cc/0yjjyJRn/PERSONAL-EXPENSE-TRACKER-5.png",
       "description":
       "Bluzka wykonana z wysokiej jakości materiałów, zapewniają wygodę i doskonałe dopasowanie",
-      "price": "130,00 zł"
+      "price": "130,00 zł",
+      "colors": ["czerwony", "czarny", "biały", "różowy"]
     }
   ]
 }
