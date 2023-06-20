@@ -29,5 +29,6 @@ export const StyledFetchSuccess = styled.div`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     padding: 5px;
+    grid-template-columns: 1fr;
   }
 `;
