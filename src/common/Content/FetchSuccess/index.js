@@ -1,10 +1,14 @@
-import { Title, LayoutContent } from "./styled";
+import { Title, LayoutContent, StyledFetchSuccess } from "./styled";
 import { Tile } from "../../Tile";
+import { ProductsFilter } from "./ProductsFilters";
 
-export const FetchSuccess = ({ title, list }) => (
-  <>
-    <Title>{title}</Title>
-    {list ? (
+export const FetchSuccess = ({ title, list, shoes }) => (
+  <StyledFetchSuccess>
+    <div>
+      <ProductsFilter shoes={shoes} />
+    </div>
+    <div>
+      <Title>{title}</Title>
       <LayoutContent>
         {list.map((listItem) => (
           <Tile
@@ -15,8 +19,6 @@ export const FetchSuccess = ({ title, list }) => (
           />
         ))}
       </LayoutContent>
-    ) : (
-      ""
-    )}
-  </>
+    </div>
+  </StyledFetchSuccess>
 );
