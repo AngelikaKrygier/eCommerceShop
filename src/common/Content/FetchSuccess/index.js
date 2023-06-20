@@ -1,8 +1,8 @@
-import { Title, LayoutContent, StyledContentSuccess } from "./styled";
+import { Title, LayoutContent } from "./styled";
 import { Tile } from "../../Tile";
 
 export const FetchSuccess = ({ title, list }) => (
-  <StyledContentSuccess>
+  <>
     <Title>{title}</Title>
     {list ? (
       <LayoutContent>
@@ -18,5 +18,5 @@ export const FetchSuccess = ({ title, list }) => (
     ) : (
       ""
     )}
-  </StyledContentSuccess>
+  </>
 );
