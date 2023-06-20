@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 
 export const StyledMenu = styled.nav`
   color: ${({ theme }) => theme.colors.menu.font};
@@ -19,17 +20,22 @@ export const StyledMenu = styled.nav`
 export const MenuItem = styled.button`
   border: none;
   background-color: transparent;
-  color: white;
   cursor: pointer;
   padding: 10px;
-  border-radius: 10px;
-
-  &:hover {
-    background-color: ${({ theme }) => theme.colors.menu.hoverListItem};
-    color: ${({ theme }) => theme.colors.menu.hoverFontListItem};
-  }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     padding: 7px;
+  }
+`;
+
+export const StyledNavLink = styled(NavLink)`
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  border-radius: 8%;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.menu.hoverFontListItem};
+    background-color: ${({ theme }) => theme.colors.menu.hoverListItem};
   }
 `;
