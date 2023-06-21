@@ -9,6 +9,8 @@ redux
 redux-saga
 reduxjs/toolkit
 
+demo: https://angelikakrygier.github.io/eCommerceShop/
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
