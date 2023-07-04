@@ -26,6 +26,10 @@ export const selectProductsSliceState = (state) => state.products;
 export const selectProducts = (state) =>
   selectProductsSliceState(state).products;
 
-export const selectDresses = selectProducts.dresses;
+export const selectDresses = (state) => selectProducts(state).dresses;
+
+export const getDressById = (state, dressId) =>
+  selectDresses(state).find(({ id }) => id === dressId);
+
 
 export default productsSlice.reducer;
