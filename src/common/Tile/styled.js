@@ -1,4 +1,5 @@
-import styled from "styled-components";
+import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
+import styled, { css } from "styled-components";
 
 export const StyledTile = styled.div`
   display: grid;
@@ -7,6 +8,12 @@ export const StyledTile = styled.div`
   padding: 20px;
   margin: 5px;
   box-shadow: ${({ theme }) => theme.boxShadow};
+
+  ${({ productDetails }) =>
+    productDetails &&
+    css`
+      grid-template-columns: 1fr 1fr;
+    `}
 `;
 
 export const Header = styled.h3`
@@ -34,4 +41,13 @@ export const Button = styled.button`
   border: none;
   color: ${({ theme }) => theme.colors.button.fontColor};
   background-color: ${({ theme }) => theme.colors.button.background};
+
+  ${({ productDetails }) =>
+    productDetails &&
+    css`
+      display: none;
+    `}
 `;
+
+export const StyledNavLink = styled(NavLink)`
+`

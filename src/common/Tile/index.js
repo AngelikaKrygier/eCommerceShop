@@ -1,3 +1,4 @@
+import { useLocation, useParams } from "react-router-dom/cjs/react-router-dom.min";
 import {
   Description,
   Header,
@@ -5,14 +6,30 @@ import {
   StyledTile,
   Image,
   Button,
+  StyledNavLink,
 } from "./styled";
 
-export const Tile = ({ name, imagePath, description, price }) => (
-  <StyledTile>
-    <Header>{name}</Header>
-    <Image src={imagePath}></Image>
-    <Description>{description}</Description>
-    <Price>{price}</Price>
-    <Button>Zobacz szczegóły produktu</Button>
-  </StyledTile>
-);
+export const Tile = ({
+  name,
+  imagePath,
+  description,
+  price,
+  productDetails,
+  id,
+  productDetailsPath,
+}) => {
+
+  return (
+    <StyledTile productDetails={productDetails}>
+      <Image src={imagePath}></Image>
+      <Header>{name}</Header>
+      <Price>{price}</Price>
+      <Description>{description}</Description>
+      <StyledNavLink to={`${productDetailsPath}/${id}`}>
+        <Button productDetails={productDetails}>
+          Zobacz szczegóły produktu
+        </Button>
+      </StyledNavLink>
+    </StyledTile>
+  );
+};
