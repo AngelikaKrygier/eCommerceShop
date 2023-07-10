@@ -1,6 +1,7 @@
-export const toDresses = () => "/Dresses";
-export const toPants = () => "/Pants";
-export const toBlouses = () => "/Blouses";
-export const toTop = () => "/Top";
-export const toShoes = () => "/Shoes";
-export const toMainPage = () => "/MainPage";
+export const toDresses = () => "/dresses";
+export const toPants = () => "/pants";
+export const toBlouses = () => "/blouses";
+export const toShoes = () => "/shoes";
+export const toMainPage = () => "/mainPage";
+export const toProductsDetails = () => "/dresses/:id";
+export const toLogin = () => "/login"
