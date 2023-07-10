@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ContentContainer = styled.div`
+  display: grid;
   max-width: 1300px;
   min-height: 100vh;
   width: 100%;
