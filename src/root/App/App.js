@@ -2,6 +2,9 @@ import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import {
+  getDressById,
+  selectDressById,
+  selectDresses,
   selectProducts,
   selectProductsSliceState,
 } from "../../features/productsSlice";
@@ -22,8 +25,19 @@ import {
   Switch,
   Route,
   Redirect,
+  useParams,
 } from "react-router-dom/cjs/react-router-dom.min";
-import { toDresses, toMainPage, toPants, toShoes, toTop } from "../routes";
+import {
+  toDresses,
+  toMainPage,
+  toPants,
+  toShoes,
+  toProductsDetails,
+  toBlouses,
+  toLogin,
+} from "../routes";
+import { ProductDetails } from "../../features/ProductDetails";
+import { Login } from "../../features/Login";
 
 function App() {
   const state = useSelector(selectProductsSliceState).state;
@@ -46,23 +60,29 @@ function App() {
 
       <Switch>
         <ContentContainer>
-          <Route path={toMainPage()}>
+          <Route exact path={toLogin()}>
+            <Login />
+          </Route>
+          {/* <Route>
+            <ProductDetails exact path={toProductsDetails()} />
+          </Route> */}
+          <Route exact path={toMainPage()}>
             <MainPage />
           </Route>
-          <Route path={toDresses()}>
+          <Route exact path={toDresses()}>
             <Dresses state={state} products={products} />
           </Route>
-          <Route path={toPants()}>
+          <Route exact path={toPants()}>
             <Pants state={state} products={products} />
           </Route>
-          <Route path={toShoes()}>
+          <Route exact path={toShoes()}>
             <Shoes state={state} products={products} />
           </Route>
-          <Route path={toTop()}>
+          <Route exact path={toBlouses()}>
             <Blouses state={state} products={products} />
           </Route>
           <Route>
-            <Redirect to={toMainPage()} />
+            <Redirect to={toMainPage()}/>
           </Route>
         </ContentContainer>
       </Switch>
