@@ -24,6 +24,7 @@ const colorName = {
 export const light = {
   ...common,
   colors: {
+    baseFont: colorName.mineShaft,
     background: colorName.mercury,
     headerBar: {
       background: colorName.white,
@@ -58,6 +59,9 @@ export const light = {
       input: colorName.swirl,
       background: colorName.swirl,
       color: colorName.white,
+    },
+    loginWindow: {
+      background: colorName.white,
     },
   },
 };
