@@ -1,4 +1,10 @@
-import { toDresses, toMainPage, toPants, toShoes, toTop } from "../../root/routes";
+import {
+  toBlouses,
+  toDresses,
+  toMainPage,
+  toPants,
+  toShoes,
+} from "../../root/routes";
 import { MenuItem, StyledMenu, StyledNavLink } from "./styled";
 
 export const Menu = () => (
@@ -16,7 +22,7 @@ export const Menu = () => (
       <StyledNavLink to={toShoes}>Buty</StyledNavLink>
     </MenuItem>
     <MenuItem>
-      <StyledNavLink to={toTop}>Topy</StyledNavLink>
+      <StyledNavLink to={toBlouses}>Topy</StyledNavLink>
     </MenuItem>
   </StyledMenu>
 );
