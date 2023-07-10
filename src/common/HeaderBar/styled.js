@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 import { ReactComponent as ProfileIcon } from "../../images/profile.svg";
 
 export const StyledHeaderBar = styled.div`
@@ -36,6 +37,11 @@ export const Profile = styled(ProfileIcon)`
   background-color: ${({ theme }) => theme.colors.profile.background};
   border: 1px solid black;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: brightness(1.2);
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tabletMax}) {
     justify-self: end;
@@ -45,4 +51,12 @@ export const Profile = styled(ProfileIcon)`
     width: 40px;
     height: 40px;
   }
+`;
+
+export const StyledNavLink = styled(NavLink)`
+  justify-self: end;
+  color: ${({ theme }) => theme.colors.baseFont};
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 8%;
 `;
