@@ -13,7 +13,7 @@ export const StyledBackDrop = styled.div`
   box-shadow: ${({ theme }) => theme.boxShadow};
   display: grid;
   grid-template-columns: 1fr 1fr;
-  transition: 0.8s;
+  transition: 0.5s;
 
   ${({ second }) =>
     second &&
