@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.js": "/eCommerceShop/static/js/main.bda2763a.js",
+    "main.js": "/eCommerceShop/static/js/main.2b348b91.js",
     "static/js/787.00c0a9ee.chunk.js": "/eCommerceShop/static/js/787.00c0a9ee.chunk.js",
+    "static/media/Bestsellery.png": "/eCommerceShop/static/media/Bestsellery.b14c6bbb14ba7aa3fe78.png",
+    "static/media/nowosci.png": "/eCommerceShop/static/media/nowosci.f7dfa893d46c9f514f23.png",
+    "static/media/BackDrop2.png": "/eCommerceShop/static/media/BackDrop2.26dffd0aaed0c625497c.png",
     "static/media/backDrop.png": "/eCommerceShop/static/media/backDrop.1aeea8960a6a6443acdf.png",
     "static/media/profile.svg": "/eCommerceShop/static/media/profile.e1a040b0882e7d441608a6d284c7441a.svg",
     "index.html": "/eCommerceShop/index.html",
+    "static/media/vectorNext.svg": "/eCommerceShop/static/media/vectorNext.38a0f814c928a8c145b9c4427265b707.svg",
+    "static/media/vectorPrevious.svg": "/eCommerceShop/static/media/vectorPrevious.56dceaf285a9ee5f7340a4ef28e1cb66.svg",
     "static/media/Lupa.svg": "/eCommerceShop/static/media/Lupa.44144c63f1114bd734334869ead5c143.svg",
     "static/media/message.svg": "/eCommerceShop/static/media/message.e7fda0d3faa09d87332434089e9ccb46.svg",
     "static/media/basket.svg": "/eCommerceShop/static/media/basket.ab10fd633fbd46d713067057fbb5ad53.svg",
     "static/media/fbIcon.svg": "/eCommerceShop/static/media/fbIcon.916cf87396cd48402a941eba22321d7e.svg",
-    "main.bda2763a.js.map": "/eCommerceShop/static/js/main.bda2763a.js.map",
+    "main.2b348b91.js.map": "/eCommerceShop/static/js/main.2b348b91.js.map",
     "787.00c0a9ee.chunk.js.map": "/eCommerceShop/static/js/787.00c0a9ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.bda2763a.js"
+    "static/js/main.2b348b91.js"
   ]
 }
