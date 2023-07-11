@@ -1,4 +1,4 @@
-import { Content } from "../../common/Content";
+import { Content } from "../../../common/Content";
 
 export const Pants = ({ state, products }) => (
   <Content
