@@ -4,4 +4,6 @@ export const toBlouses = () => "/blouses";
 export const toShoes = () => "/shoes";
 export const toMainPage = () => "/mainPage";
 export const toProductsDetails = () => "/dresses/:id";
-export const toLogin = () => "/login"
+export const toLogin = () => "/login";
+export const toCreateAccount = () => "/createAccount";
+export const toShopRules = () => "/shopRules"

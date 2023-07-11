@@ -12,11 +12,11 @@ import { productsLoading } from "../../features/productsSlice";
 import { BackDrop } from "../../common/BackDrop";
 import { HeaderBar } from "../../common/HeaderBar";
 import { Menu } from "../../common/Menu";
-import { Dresses } from "../../features/Dresses";
-import { Pants } from "../../features/Pants";
+import { Dresses } from "../../features/products/Dresses";
+import { Pants } from "../../features/products/Pants";
 import { Footer } from "../../common/Footer";
-import { Shoes } from "../../features/Shoes";
-import { Blouses } from "../../features/Blouses";
+import { Shoes } from "../../features/products/Shoes";
+import { Blouses } from "../../features/products/Blouses";
 import { FetchLoading } from "../../common/Content/FetchLoading";
 import { MainPage } from "../../features/MainPage";
 import { ContentContainer } from "../../common/ContentContainer/styled";
@@ -35,9 +35,13 @@ import {
   toProductsDetails,
   toBlouses,
   toLogin,
+  toCreateAccount,
+  toShopRules,
 } from "../routes";
 import { ProductDetails } from "../../features/ProductDetails";
-import { Login } from "../../features/Login";
+import { Login } from "../../features/user/Login";
+import { CreateAccount } from "../../features/user/CreateAccount";
+import { ShopRules } from "../../common/ShopRules";
 
 function App() {
   const state = useSelector(selectProductsSliceState).state;
@@ -81,8 +85,14 @@ function App() {
           <Route exact path={toBlouses()}>
             <Blouses state={state} products={products} />
           </Route>
+          <Route exact path={toCreateAccount()}>
+            <CreateAccount />
+          </Route>
+          <Route exact path={toShopRules()}>
+            <ShopRules />
+          </Route>
           <Route>
-            <Redirect to={toMainPage()}/>
+            <Redirect to={toMainPage()} />
           </Route>
         </ContentContainer>
       </Switch>
