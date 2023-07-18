@@ -3,7 +3,10 @@ export const toPants = () => "/pants";
 export const toBlouses = () => "/blouses";
 export const toShoes = () => "/shoes";
 export const toMainPage = () => "/mainPage";
-export const toProductsDetails = () => "/dresses/:id";
+export const toDressDetails = ({ id } = { id: ":id" }) => `/dresses/${id}`;
+export const toPantsDetails = ({ id } = { id: ":id" }) => `/pants/${id}`;
+export const toShoesDetails = ({ id } = { id: ":id" }) => `/shoes/${id}`;
+export const toBlousesDetails = ({ id } = { id: ":id" }) => `/blouses/${id}`;
 export const toLogin = () => "/login";
 export const toCreateAccount = () => "/createAccount";
-export const toShopRules = () => "/shopRules"
+export const toShopRules = () => "/shopRules";

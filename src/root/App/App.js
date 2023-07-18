@@ -32,16 +32,22 @@ import {
   toMainPage,
   toPants,
   toShoes,
-  toProductsDetails,
+  toDressDetails,
   toBlouses,
   toLogin,
   toCreateAccount,
   toShopRules,
+  toPantsDetails,
+  toBlousesDetails,
+  toShoesDetails,
 } from "../routes";
-import { ProductDetails } from "../../features/ProductDetails";
 import { Login } from "../../features/user/Login";
 import { CreateAccount } from "../../features/user/CreateAccount";
 import { ShopRules } from "../../common/ShopRules";
+import { DressDetails } from "../../features/products/Dresses/DressDetails";
+import { PantsDetails } from "../../features/products/Pants/PantsDetails";
+import { BlousesDetails } from "../../features/products/Blouses/BlousesDetails";
+import { ShoesDetails } from "../../features/products/Shoes/ShoesDetails";
 
 function App() {
   const state = useSelector(selectProductsSliceState).state;
@@ -67,9 +73,18 @@ function App() {
           <Route exact path={toLogin()}>
             <Login />
           </Route>
-          {/* <Route>
-            <ProductDetails exact path={toProductsDetails()} />
-          </Route> */}
+          <Route exact path={toDressDetails()}>
+            <DressDetails />
+          </Route>
+          <Route exact path={toPantsDetails()}>
+            <PantsDetails />
+          </Route>
+          <Route exact path={toBlousesDetails()}>
+            <BlousesDetails />
+          </Route>
+          <Route exact path={toShoesDetails()}>
+            <ShoesDetails />
+          </Route>
           <Route exact path={toMainPage()}>
             <MainPage />
           </Route>
