@@ -62,6 +62,11 @@ export const light = {
     },
     loginWindow: {
       background: colorName.white,
+      createAccountSpan: colorName.willowGrove,
+    },
+    tile: {
+      background: colorName.white,
+      priceBackground: colorName.mercury,
     },
   },
 };
@@ -69,6 +74,6 @@ export const light = {
 export const dark = {
   ...common,
   colors: {
-    background: colorName.mercury,
+    background: colorName.willowGrove,
   },
 };
