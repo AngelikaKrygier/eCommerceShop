@@ -10,7 +10,9 @@
       "price": "100,00 zł",
       "detailedDescription": "Sukienka Wykonana z wysokiej jakości materiałów, zapewnia wygodę i doskonałe dopasowanie. Sukienka Wykonana z wysokiej jakości materiałów, zapewnia wygodę i doskonałe dopasowanie. Sukienka Wykonana z wysokiej jakości materiałów, zapewnia wygodę i doskonałe dopasowanie. Sukienka Wykonana z wysokiej jakości materiałów, zapewnia wygodę i doskonałe dopasowanie. Sukienka Wykonana z wysokiej jakości materiałów, zapewnia wygodę i doskonałe dopasowanie. Sukienka Wykonana z wysokiej jakości materiałów, zapewnia wygodę i doskonałe dopasowanie",
       "size": [ "s", "m", "l"],
-      "colors": ["czerwony", "zielony", "biały", "różowy"]
+      "colors": ["czerwony", "zielony", "biały", "różowy"],
+      "images" : ["https://i.postimg.cc/1X3n0VFW/PERSONAL-EXPENSE-TRACKER-2.png", "https://i.postimg.cc/1X3n0VFW/PERSONAL-EXPENSE-TRACKER-2.png","https://i.postimg.cc/1X3n0VFW/PERSONAL-EXPENSE-TRACKER-2.png"
+      ]
     },
     {
       "name": "Nazwa wzoru 2",
