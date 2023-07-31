@@ -13,7 +13,7 @@ export const StyledTile = styled.div`
     productDetails &&
     css`
       grid-template-columns: auto 1fr;
-      grid-template-rows: auto auto 1fr;
+      grid-template-rows: auto auto 1fr 1fr;
       background-color: ${({ theme }) => theme.colors.tile.background};
 
       @media (max-width: ${({ theme }) => theme.breakpoints.tabletMax}) {
@@ -25,6 +25,7 @@ export const StyledTile = styled.div`
 export const Header = styled.h3`
   margin: 0 0 10px;
   padding: 10px 20px;
+  font-size: 15px;
 
   ${({ productDetails }) =>
     productDetails &&
@@ -61,7 +62,7 @@ export const Description = styled.p`
   ${({ productDetails }) =>
     productDetails &&
     css`
-      font-size: 20px;
+      font-size: 19px;
       line-height: 1.4;
       padding: 0 20px;
     `}
@@ -69,6 +70,7 @@ export const Description = styled.p`
 
 export const Price = styled.p`
   font-weight: ${({ theme }) => theme.fontWeight.bold};
+  margin: 0px;
 
   ${({ productDetails }) =>
     productDetails &&
@@ -101,3 +103,10 @@ export const Button = styled.button`
 `;
 
 export const StyledNavLink = styled(NavLink)``;
+
+export const MiniatureImagesWrapper = styled.div`
+  display: flex;
+`;
+
+export const MiniatureImage = styled.img`
+`

@@ -1,3 +1,4 @@
+import { Gallery } from "./Gallery";
 import {
   Description,
   Header,
@@ -6,6 +7,8 @@ import {
   Image,
   Button,
   StyledNavLink,
+  MiniatureImagesWrapper,
+  MiniatureImage,
 } from "./styled";
 
 export const Tile = ({
@@ -17,6 +20,7 @@ export const Tile = ({
   productDetails,
   id,
   productDetailsPath,
+  images,
 }) => {
   return (
     <StyledTile productDetails={productDetails}>
@@ -35,6 +39,7 @@ export const Tile = ({
           Zobacz szczegóły produktu
         </Button>
       </StyledNavLink>
+      {productDetails ? <Gallery images={images}/> : ""}
     </StyledTile>
   );
 };
