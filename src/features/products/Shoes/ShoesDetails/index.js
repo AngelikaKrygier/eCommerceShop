@@ -6,7 +6,6 @@ import { ProductDetails } from "../../../../common/ProductDetails";
 export const ShoesDetails = () => {
   const { id } = useParams();
   const product = useSelector((state) => getShoesById(state, id));
-  console.log(product);
 
   return product ? <ProductDetails product={product} /> : "";
 };
