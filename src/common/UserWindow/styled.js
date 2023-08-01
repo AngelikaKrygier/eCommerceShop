@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 
 export const UserForm = styled.form`
   max-width: 600px;
-  max-height: 400px;
+  max-height: 300px;
   width: 100%;
   height: 100%;
   justify-self: center;
