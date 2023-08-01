@@ -6,6 +6,7 @@ import {
   UserForm,
   StyledNavLink,
 } from "./styled";
+import { useRef } from "react";
 
 export const UserWindow = ({
   userName,
@@ -16,21 +17,19 @@ export const UserWindow = ({
   navLink,
   email,
   createAccount,
+  onFormSubmit,
+  userNameInputRef,
+  userPasswordRef
 }) => {
+
+  
+
   return (
-    <UserForm>
+    <UserForm onSubmit={onFormSubmit}>
       <InputName>{userName}</InputName>
-      <Input></Input>
+      <Input ref={userNameInputRef} type="email"></Input>
       <InputName>{password}</InputName>
-      <Input></Input>
-      {createAccount ? (
-        <>
-          <InputName>{email}</InputName>
-          <Input></Input>
-        </>
-      ) : (
-        ""
-      )}
+      <Input ref={userPasswordRef} type="password"></Input>
       <Button>{button}</Button>
       <Paragraph>
         {paragraph}
